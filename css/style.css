@@ -1,0 +1,49 @@
+#content{
+	margin-top: 150px;
+	text-align: center;
+}
+#begin {
+	margin-top: 30px;
+}
+
+.options {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.quiz{
+	display: none;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 20%;
+    background-color: green;
+	color: white;
+    padding: 10px 0px;
+	display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #00b300;
+}
+
+input[type=radio]{
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#footer{
+	height: 100px;
+}
